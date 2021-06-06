@@ -9,8 +9,8 @@ import java.util.Map;
 public class SolutionService {
 	
 	
-	private static final Integer[] UNSORTED_INPUT = {1,5,24,75,34,38,89,54,26,91,17,66,67,68,69,70,9,83};
-	private static final Integer[] SORTED_INPUT = {1,5,9,17,24,26,34,38,54,66,67,68,69,70,75,83,89,91};
+	private static final Integer[] UNSORTED_INPUT = {1,5,24,75,34,38,89,54,26,91,17,66,67,68,69,70,9,83,99};
+	private static final Integer[] SORTED_INPUT = {1,5,9,17,24,26,34,38,54,66,67,68,69,70,75,83,89,91,99};
 			
 
 	public static void main(String[] args) {

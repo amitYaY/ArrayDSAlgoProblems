@@ -7,9 +7,9 @@ import java.util.Map;
 
 public class SolutionService {
 	
-	private static final Integer[] INPUT = {1,3,5,7,24,26,11,34,38,7,54,66,9,67,68,5,69,70,75,83,89,91,99};
+	private static final Integer[] INPUT = {6,6,6,6};
 	
-	private static final Integer[] SIGNED_INPUT = {1,3,5,7,24,14,11,34,-57,7,-54,66,9,5,69,-2};
+	private static final Integer[] SIGNED_INPUT = {1,3,5,7,24,6,14,11,6,34,-57,7,6,-54,66,9,6,5,69,-2};
 
 	public static void main(String[] args) {
 		SolutionService service = new SolutionService();
@@ -33,16 +33,23 @@ public class SolutionService {
 			}
 		}
 		
-		for(Integer in : temp.keySet()) {
+		for (Integer in : input) {
 			int diff = target - in;
-			if(temp.containsKey(diff) && temp.get(in) > 0) {
-				while(temp.get(diff)>0) {
+			
+			int i = 0;
+			
+			if(diff == in) {
+				i = 1;
+			}
+			
+			if (temp.containsKey(diff)) {
+				for (; i < temp.get(diff); i++) {
 					List<Integer> pair = new ArrayList<>();
 					pair.add(in);
 					pair.add(diff);
 					result.add(pair);
-					temp.put(diff, temp.get(diff)-1);
 				}
+				temp.put(in, temp.get(in) - 1);
 			}
 		}
 		return result;
@@ -59,20 +66,25 @@ public class SolutionService {
 				temp.put(in, 1);
 			}
 		}
-		
-		for(Integer in : temp.keySet()) {
+
+		for (Integer in : input) {
 			int diff = target - in;
-			if(temp.containsKey(diff) && temp.get(in) > 0) {
-				while(temp.get(diff)>0) {
+			int i = 0;
+
+			if (diff == in) {
+				i = 1;
+			}
+			if (temp.containsKey(diff)) {
+				for (; i < temp.get(diff); i++) {
 					List<Integer> pair = new ArrayList<>();
 					pair.add(in);
 					pair.add(diff);
 					result.add(pair);
-					temp.put(diff, temp.get(diff)-1);
 				}
+				temp.put(in, temp.get(in) - 1);
 			}
 		}
-		
+
 		return result;
 	}
 

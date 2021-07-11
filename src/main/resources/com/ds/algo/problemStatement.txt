@@ -13,3 +13,5 @@
 9.  Given an integer array arr, and an integer target, return the number of tuples i, j, k such that i < j < k and arr[i] + arr[j] + arr[k] == target. As the answer can be very large, return it modulo 109 + 7.
 11. Given a binary array nums, return the maximum length of a contiguous subarray with an equal number of 0 and 1.
 12. Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's, and return the matrix.
+13. Given an integer array nums and an integer k, return the maximum sum of a non-empty subsequence of that array such that for every two consecutive integers in the subsequence, nums[i] and nums[j], where i < j, the condition j - i <= k is satisfied. A subsequence of an array is obtained by deleting some number of elements (can be zero) from the array, leaving the remaining elements in their original order.
+14. https://leetcode.com/problems/get-the-maximum-score/

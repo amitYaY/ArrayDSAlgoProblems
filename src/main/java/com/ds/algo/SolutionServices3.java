@@ -1,11 +1,11 @@
-package com.ds.algo.three;
+package com.ds.algo;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.TreeSet;
 
-public class SolutionSerice {
+public class SolutionServices3 {
 
 	private static final Integer[] UNSORTED_INPUT = { 1, 5, 24, 75, 34, 38, 89, 54, 26, 91, 17, 66, 67, 68, 69, 70, 9,
 			83, 99 };
@@ -17,7 +17,7 @@ public class SolutionSerice {
 
 		// Brute-Force is sort the Array
 
-		SolutionSerice serice = new SolutionSerice();
+		SolutionServices3 serice = new SolutionServices3();
 
 		Integer[] result = serice.findMinAndMaxNumber(UNSORTED_INPUT);
 

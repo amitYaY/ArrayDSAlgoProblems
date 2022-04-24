@@ -1,17 +1,17 @@
-package com.ds.algo.seven;
+package com.ds.algo;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class SolutionService {
+public class SolutionServices7 {
 	
 	private static final Integer[] INPUT = { 1, 12, 3, 5, 67, 56, 35, 56, 53, 2, 34, 5, 45, 3, 1, 65, 56};
 	
 
 	public static void main(String[] args) {
-		SolutionService service = new SolutionService();
+		SolutionServices7 service = new SolutionServices7();
 		System.out.println(service.findAllDuplicates(INPUT));
 
 	}

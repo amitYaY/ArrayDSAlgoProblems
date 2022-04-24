@@ -1,14 +1,14 @@
-package com.ds.algo.eleven;
+package com.ds.algo;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolutionService {
+public class SolutionServices11 {
 
 	private static int[] input = { 0, 1, 0 };
 
 	public static void main(String[] args) {
-		SolutionService service = new SolutionService();
+		SolutionServices11 service = new SolutionServices11();
 		int result = service.findMaxLength(input);
 		System.out.println("Result: " + result);
 	}

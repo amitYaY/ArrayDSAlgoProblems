@@ -1,9 +1,9 @@
-package com.ds.algo.fourteen;
+package com.ds.algo;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolutionService {
+public class SolutionServices14 {
 
 //	private static int[] nums1 = { 2, 4, 5, 8, 10 }; // 30
 //	private static int[] nums2 = { 4, 6, 8, 9 };
@@ -25,7 +25,7 @@ public class SolutionService {
 			149, 155, 166, 175, 187 };
 
 	public static void main(String[] args) {
-		SolutionService service = new SolutionService();
+		SolutionServices14 service = new SolutionServices14();
 		int result = service.maxSum(nums1, nums2);
 		System.out.println("Result: " + result);
 

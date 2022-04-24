@@ -1,4 +1,4 @@
-package com.ds.algo.two;
+package com.ds.algo;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -6,13 +6,13 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class SolutionSerice {
+public class SolutionServices2 {
 
 	private static final Integer[] INPUT = { 1, 12, 3, 5, 67, 56, 35, 56, 53, 2, 34, 5, 45, 3, 1, 65, 56 };
 
 	public static void main(String[] args) {
 
-		SolutionSerice serice = new SolutionSerice();
+		SolutionServices2 serice = new SolutionServices2();
 		System.out.println(Arrays.asList(serice.findDuplicateNumber(INPUT)));
 	}
 

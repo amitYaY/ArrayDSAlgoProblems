@@ -1,18 +1,18 @@
-package com.ds.algo.six;
+package com.ds.algo;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SolutionService {
+public class SolutionServices6 {
 	
 	private static final Integer[] INPUT = {6,6,6,6};
 	
 	private static final Integer[] SIGNED_INPUT = {1,3,5,7,24,6,14,11,6,34,-57,7,6,-54,66,9,6,5,69,-2};
 
 	public static void main(String[] args) {
-		SolutionService service = new SolutionService();
+		SolutionServices6 service = new SolutionServices6();
 		System.out.println(service.findPairOfNumIfAllPositive_One(INPUT,12));
 		System.out.println("####################################################");
 		System.out.println(service.findPairOfNumAllAnyTypeNumber(SIGNED_INPUT,12));

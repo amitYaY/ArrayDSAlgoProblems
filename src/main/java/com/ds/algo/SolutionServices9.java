@@ -1,9 +1,9 @@
-package com.ds.algo.nine;
+package com.ds.algo;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class SolutionService {
+public class SolutionServices9 {
 
 //	private static int[] input = { 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 };
 //	private static int target = 8;
@@ -21,7 +21,7 @@ public class SolutionService {
 	private static int target = 0;
 
 	public static void main(String[] args) {
-		SolutionService service = new SolutionService();
+		SolutionServices9 service = new SolutionServices9();
 		int result = service.threeSumMulti(input, target);
 		System.out.println("Result: " + result);
 	}

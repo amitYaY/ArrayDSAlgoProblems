@@ -1,6 +1,6 @@
 package com.ds.algo;
 
-public class SolutionService15 {
+public class SolutionServices15 {
 
     //private static int[][] input = { { 1, 2, 3 }, { 8, 9, 4 }, { 7, 6, 5 } };
 

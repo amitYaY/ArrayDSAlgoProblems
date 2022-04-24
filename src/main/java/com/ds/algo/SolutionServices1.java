@@ -1,4 +1,4 @@
-package com.ds.algo.one;
+package com.ds.algo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SolutionService {
+public class SolutionServices1 {
 	
 	
 	private static final Integer[] UNSORTED_INPUT = {1,5,24,75,34,38,89,54,26,91,17,66,67,68,69,70,9,83,99};
@@ -15,7 +15,7 @@ public class SolutionService {
 
 	public static void main(String[] args) {
 
-		SolutionService solutionService = new SolutionService();
+		SolutionServices1 solutionService = new SolutionServices1();
 
 		System.out.println("Missing Numbers from Unsorted List");
 		System.out.println(Arrays.asList(solutionService.findMissingNumberFromUnsortedIntList(UNSORTED_INPUT)));

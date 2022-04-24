@@ -1,14 +1,14 @@
-package com.ds.algo.twelve;
+package com.ds.algo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionService {
+public class SolutionServices12 {
 
 	private static int[][] input = { { 1, 1, 1 }, { 1, 0, 1 }, { 1, 1, 1 } };
 
 	public static void main(String[] args) {
-		SolutionService service = new SolutionService();
+		SolutionServices12 service = new SolutionServices12();
 		service.setZeroes(input);
 		
 		for(int i=0; i<input.length; i++) {

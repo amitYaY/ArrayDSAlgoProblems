@@ -1,13 +1,13 @@
-package com.ds.algo.five;
+package com.ds.algo;
 
 import java.util.Arrays;
 
-public class SolutionService {
+public class SolutionServices5 {
 	
 	private static final Integer[] UNSORTED_INPUT = {1,5,24,75,34,38,89,54,26,91,17,66,67,68,69,70,9,83,99};
 
 	public static void main(String[] args) {
-		SolutionService service = new SolutionService();
+		SolutionServices5 service = new SolutionServices5();
 		System.out.println("#####################################################################");
 		System.out.println(Arrays.asList(service.reverseInputArrayUsingExtraSpace(UNSORTED_INPUT)));
 		System.out.println("#####################################################################");

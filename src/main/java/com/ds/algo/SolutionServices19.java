@@ -3,11 +3,11 @@ package com.ds.algo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SolutionService19 {
+public class SolutionServices19 {
 
     public static void main(String[] args) {
         int[][] grid = {{0,0,1},{1,1,0},{1,0,0}};
-        SolutionService19 service = new SolutionService19();
+        SolutionServices19 service = new SolutionServices19();
         System.out.println(service.minSwaps(grid));
     }
 

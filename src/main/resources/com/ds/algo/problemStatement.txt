@@ -19,3 +19,4 @@
 16. Array Sort 0,1
 17. Array Sort 0,1,2
 18. Matrix Spiral Inside Out
+19. Minimum Swaps to Arrange a Binary Grid [Above Diagonal all are Zero]

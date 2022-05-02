@@ -22,3 +22,4 @@
 19. Minimum Swaps to Arrange a Binary Grid [Above Diagonal all are Zero]
 20. Min Stack
 21. Minimum Swaps To Make Sequences Increasing
+22. Word Search
